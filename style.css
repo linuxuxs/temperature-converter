@@ -1,0 +1,98 @@
+
+form {
+
+    width: 400px;
+    height: 500px;
+    background-color: rgb(199, 127, 204);
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 53px rgb(113, 5, 106);
+}
+
+body {
+
+    background-color: hsl(0, 0%, 82%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(pic.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+}
+
+#title {
+
+    color: white;
+    padding: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 10px dashed;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#input {
+
+    text-align: center;
+    color: rgb(133, 0, 124);
+    font-size: 30px;
+    border-radius: 21px;
+    border: none;
+
+}
+
+#check {
+
+   
+    margin-top: 30px;
+    transform: scale(2);
+    margin-left: 20px;
+    margin-right: 400px;
+
+}
+
+
+#check_two
+{
+    transform: scale(2);
+    margin-left: 20px;
+    margin-right: 400px;
+}
+
+label
+{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 25px;
+    text-indent: 10px;
+    
+}
+
+#BTN 
+{
+    font-size: 40px;
+    color: hsl(350, 100%, 88%);
+    box-shadow: 5px 10px 20px rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#BTN:hover
+{
+    color: hsl(350, 100%, 80%);
+    transform: scale(1.090);
+
+}
+
+#result
+{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+
+}
