@@ -1,13 +1,14 @@
 
 form {
-
-    width: 400px;
-    height: 500px;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
     background-color: rgb(199, 127, 204);
     border-radius: 4px;
     text-align: center;
     margin: auto;
     box-shadow: 5px 5px 53px rgb(113, 5, 106);
+    padding: 20px;
 }
 
 body {
