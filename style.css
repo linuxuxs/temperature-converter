@@ -34,21 +34,21 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 10px dashed;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    word-wrap: break-word;
 }
 
 #input {
 
-    text-align: center;
+    width: 100%;
     color: rgb(133, 0, 124);
     font-size: 30px;
     border-radius: 21px;
     border: none;
-
 }
 
 #check {
 
-   
+   display: flex;
     margin-top: 30px;
     transform: scale(2);
     margin-left: 20px;
@@ -59,6 +59,7 @@ body {
 
 #check_two
 {
+    display: flex;
     transform: scale(2);
     margin-left: 20px;
     margin-right: 400px;
@@ -80,6 +81,7 @@ label
     color: hsl(350, 100%, 88%);
     box-shadow: 5px 10px 20px rgb(0, 0, 0);
     transition: transform 0.3s ease-in-out;
+    width: 100%;
 }
 
 #BTN:hover
